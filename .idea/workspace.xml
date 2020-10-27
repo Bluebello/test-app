@@ -2,53 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efc12d67-6e95-49ba-ac36-541e6b41d593" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/page-objects/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page-objects/Base.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page-objects/Pages/loginPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/log&amp;logout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page-objects/components/dashboardNavbar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@wdio/local-runner/build/repl.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@wdio/local-runner/build/repl.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@wdio/local-runner/build/repl.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@wdio/local-runner/build/repl.d.ts.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@wdio/local-runner/build/run.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@wdio/local-runner/build/run.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@wdio/local-runner/build/run.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@wdio/local-runner/build/run.d.ts.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@wdio/local-runner/build/worker.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@wdio/local-runner/build/worker.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@wdio/local-runner/build/worker.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@wdio/local-runner/build/worker.d.ts.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@wdio/local-runner/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@wdio/local-runner/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@wdio/mocha-framework/build/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@wdio/mocha-framework/build/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@wdio/mocha-framework/build/index.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@wdio/mocha-framework/build/index.d.ts.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@wdio/mocha-framework/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@wdio/mocha-framework/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@wdio/reporter/build/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@wdio/reporter/build/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@wdio/reporter/build/index.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@wdio/reporter/build/index.d.ts.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@wdio/reporter/build/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@wdio/reporter/build/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@wdio/reporter/build/stats/hook.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@wdio/reporter/build/stats/hook.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@wdio/reporter/build/stats/hook.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@wdio/reporter/build/stats/hook.d.ts.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@wdio/reporter/build/stats/runnable.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@wdio/reporter/build/stats/runnable.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@wdio/reporter/build/stats/runnable.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@wdio/reporter/build/stats/runnable.d.ts.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@wdio/reporter/build/stats/runnable.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@wdio/reporter/build/stats/runnable.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@wdio/reporter/build/stats/runner.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@wdio/reporter/build/stats/runner.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@wdio/reporter/build/stats/runner.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@wdio/reporter/build/stats/runner.d.ts.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@wdio/reporter/build/stats/suite.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@wdio/reporter/build/stats/suite.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@wdio/reporter/build/stats/suite.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@wdio/reporter/build/stats/suite.d.ts.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@wdio/reporter/build/stats/suite.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@wdio/reporter/build/stats/suite.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@wdio/reporter/build/stats/test.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@wdio/reporter/build/stats/test.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@wdio/reporter/build/stats/test.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@wdio/reporter/build/stats/test.d.ts.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@wdio/reporter/build/utils.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@wdio/reporter/build/utils.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@wdio/reporter/build/utils.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@wdio/reporter/build/utils.d.ts.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@wdio/reporter/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@wdio/reporter/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@wdio/reporter/reporter.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@wdio/reporter/reporter.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@wdio/runner/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@wdio/runner/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@wdio/spec-reporter/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@wdio/spec-reporter/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@wdio/sync/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@wdio/sync/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@wdio/sync/webdriverio-core.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@wdio/sync/webdriverio-core.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chromedriver/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/chromedriver/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-chromedriver-service/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/wdio-chromedriver-service/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/pageobjects/login.page.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/pageobjects/page.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/pageobjects/secure.page.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/specs/example.e2e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wdio.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/wdio.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/@babel/register/.babel.7.12.3.test.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/@babel/register/.babel.7.12.3.test.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page-objects/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/page-objects/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page-objects/Pages/loginPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/page-objects/Pages/loginPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/log&amp;logout.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log&amp;logout.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,8 +20,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/log&amp;logout.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="34" column="4" selection-start-line="34" selection-start-column="7" selection-end-line="45" selection-end-column="9" />
+            <state relative-caret-position="330">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -77,19 +39,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wdio.conf.js">
+        <entry file="file://$PROJECT_DIR$/page-objects/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+            <state>
+              <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+        <entry file="file://$PROJECT_DIR$/page-objects/Pages/loginPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+            <state relative-caret-position="457">
+              <caret line="45" selection-start-line="45" selection-end-line="45" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page-objects/components/dashboardNavbar.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -126,6 +97,10 @@
         <option value="$PROJECT_DIR$/app test/tests/log&amp;logout.js" />
         <option value="$PROJECT_DIR$/wdio.conf.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/page-objects/App.js" />
+        <option value="$PROJECT_DIR$/page-objects/Pages/loginPage.js" />
+        <option value="$PROJECT_DIR$/page-objects/components/navbar.js" />
+        <option value="$PROJECT_DIR$/page-objects/components/dashboardNavbar.js" />
         <option value="$PROJECT_DIR$/tests/log&amp;logout.js" />
       </list>
     </option>
@@ -156,6 +131,12 @@
               <item name="test-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="test-app" type="462c0819:PsiDirectoryNode" />
               <item name="page-objects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-app" type="462c0819:PsiDirectoryNode" />
+              <item name="page-objects" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test-app" type="b2602c69:ProjectViewProjectNode" />
@@ -203,23 +184,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603643495107</updated>
-      <workItem from="1603643496465" duration="11163000" />
+      <workItem from="1603643496465" duration="17491000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11163000" />
+    <option name="totallyTimeSpent" value="17491000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="51" y="23" width="1389" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2494432" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494432" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3299363" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3299363" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -263,13 +245,6 @@
     <entry file="file://$PROJECT_DIR$/app test/tests/login/logout.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/page-objects/Pages/loginPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/pageobjects/login.page.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -285,15 +260,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page-objects/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app test/tests/log &amp; logout.js">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wdio.conf.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -302,10 +277,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/page-objects/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        <state>
+          <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -316,10 +291,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/page-objects/Pages/loginPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="45" selection-start-line="45" selection-end-line="45" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page-objects/components/dashboardNavbar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/log&amp;logout.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="34" column="4" selection-start-line="34" selection-start-column="7" selection-end-line="45" selection-end-column="9" />
+        <state relative-caret-position="330">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
