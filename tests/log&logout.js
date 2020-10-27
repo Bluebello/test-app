@@ -11,7 +11,7 @@ describe('Login app / Logout test', () => {
         $('body > ng-component > div > div > div > div > div > div > div > div > div.input-group.mb-3.mt-3 > input').setValue('admin')
         $('body > ng-component > div > div > div > div > div > div > div > div > div.input-group.mb-4 > input').setValue('admin')
         $('body > ng-component > div > div > div > div > div > div > div > div > div.text-center > button').click()
-        $('dashboard-create-product-type-btn').waitForExist()
+        $('#dashboard-create-product-type-btn').waitForExist()
         browser.pause(5000)
 
 
@@ -30,9 +30,9 @@ describe('Login app / Logout test', () => {
         $('body > ng-component > div > div > div > div > div > div > div > h1').waitForExist()
         browser.pause(5000)
 
-        dashboardNavbar.clickWyloguj()
-        App.openHomePage()
-        Base.pauseMedium()
+        // dashboardNavbar.clickWyloguj()
+        // App.openHomePage()
+        // Base.pauseMedium()
 
 
     })
@@ -50,7 +50,9 @@ describe('Login app / Logout test', () => {
         // loginPage.formIsVisible()
         // loginPage.fillForm('uzytkownik', 'uzytkownik')
         // loginPage.submitForm()
-
+        // dashboardNavbar.linkProduktyIsVisible()
+        // dashboardNavbar.linkListaProduktówIsVisible()
+        // Base.pauseMedium()
 
 
 
@@ -59,23 +61,24 @@ describe('Login app / Logout test', () => {
 
 
 
-    // it('Should be login with invalid data', () =>{
-    //     browser.url('http://localhost:4200')
-    //     $('body > ng-component > div > div > div > div > div > div > div > h1').waitForExist()
-    //     $('body > ng-component > div > div > div > div > div > div > div > div > div.input-group.mb-3.mt-3 > input').setValue('username')
-    //     $('body > ng-component > div > div > div > div > div > div > div > div > div.input-group.mb-4 > input').setValue('password')
-    //     $('body > ng-component > div > div > div > div > div > div > div > div > div.text-center > button').click()
-    //
-    //     // dodac selektor dla dymku, ze logowanie nie udane
-    //     const error = // selector dymku
-    //     expect(error).toHaveText('Logowanie nie udane')
+    it('Should be login with invalid data', () =>{
+        browser.url('http://localhost:4200')
+        $('body > ng-component > div > div > div > div > div > div > div > h1').waitForExist()
+        $('body > ng-component > div > div > div > div > div > div > div > div > div.input-group.mb-3.mt-3 > input').setValue('username')
+        $('body > ng-component > div > div > div > div > div > div > div > div > div.input-group.mb-4 > input').setValue('password')
+        $('body > ng-component > div > div > div > div > div > div > div > div > div.text-center > button').click()
+
+
+        const message = $('#toast-container > div > div.toast-title.ng-star-inserted')
+        expect(message).toHaveText('Logowanie nie udane')
 
     // App.openHomePage()
     // loginPage.formIsVisible()
-    // loginPage.fillForm('uzytkownik', 'uzytkownik')
+    // loginPage.fillForm('username', 'password')
     // loginPage.submitForm()
     //
-    // })
+
+    })
 
 
 })

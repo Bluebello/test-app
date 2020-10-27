@@ -10,6 +10,14 @@ class dashboardNavbar extends  Base {
         return $('#body > app-dashboard > header > ul.nav.navbar-nav.ml-auto > a > button')
     }
 
+    get linkProdukty() {
+        return $('#nav-link-/dashboard')
+    }
+
+    get linkListaProduktów(){
+        return $('#nav-link-/produkty/lista')
+    }
+
     stworzTypProduktuIsVisible() {
         this.stworzTypProduktu.waitForExist()
     }
@@ -17,6 +25,16 @@ class dashboardNavbar extends  Base {
     clickWyloguj() {
         this.Wyloguj.click()
     }
+
+    linkProduktyIsVisible(){
+        this.linkProdukty.waitForExist()
+    }
+
+    linkListaProduktówIsVisible() {
+        this.linkListaProduktów.waitForExist()
+    }
+
+
 
 
 
